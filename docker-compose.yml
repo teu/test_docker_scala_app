@@ -1,0 +1,11 @@
+version: '3'
+services:
+  ci:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    #use custom names instead of auto-generated ones
+    container_name: "test-php-app"
+
+    ports:
+      - "80:80"
