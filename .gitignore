@@ -1,6 +1,5 @@
 app/vendor/*
-app/
-.idea
+/.idea
 vendor/*
 *.log
 *.iml
